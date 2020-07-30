@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/community_channel6"
+        android:layout_width="220dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="160dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Protests"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followingButton3" />
+
+    <Button
+        android:id="@+id/followingButton6"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/text_border_filled"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="+ Follow"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/community_channel4" />
+
+    <TextView
+        android:id="@+id/membersCount6"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="220dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="598 Following"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/members3" />
+
+    <ImageView
+        android:id="@+id/members6"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="576dp"
+        android:background="@drawable/person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/community_channel4"
+        android:layout_width="220dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="48dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Shades of Cal Poly"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followingButton3" />
+
+    <Button
+        android:id="@+id/followingButton4"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/text_border_filled"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="+ Follow"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/community_channel4" />
+
+    <ImageView
+        android:id="@+id/members4"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="468dp"
+        android:background="@drawable/person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/membersCount4"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="112dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="134 Following"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/members3" />
+
+    <TextView
+        android:id="@+id/community_channel3"
+        android:layout_width="220dp"
+        android:layout_height="26dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Community Protests"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followingButton2" />
+
+    <Button
+        android:id="@+id/followingButton3"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="2dp"
+        android:background="@drawable/text_border_filled"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="+ Follow"
+        android:textColor="#FFFFFF"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community_channel3" />
+
+    <ImageView
+        android:id="@+id/members3"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="360dp"
+        android:background="@drawable/person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/membersCount3"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="1532 Following"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/members3" />
+
+    <TextView
+        android:id="@+id/community_channel2"
+        android:layout_width="222dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Corona Virus"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/followingButton1" />
+
+    <ImageView
+        android:id="@+id/members2"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="244dp"
+        android:background="@drawable/person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/membersCount2"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="4567 Following"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/members2" />
+
+    <Button
+        android:id="@+id/followingButton2"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="30dp"
+        android:background="@drawable/text_border"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="following"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community_channel2" />
+
+    <Button
+        android:id="@+id/followingButton1"
+        android:layout_width="104dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="28dp"
+        android:background="@drawable/text_border"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="following"
+        android:textColor="#000000"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community_channel1" />
+
+    <TextView
+        android:id="@+id/community_channel1"
+        android:layout_width="220dp"
+        android:layout_height="32dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:focusable="true"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Sexual Assault / Rape"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/community_join" />
+
+    <TextView
+        android:id="@+id/community_join"
+        android:layout_width="347dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="Join a Conversation"
+        android:textColor="#000000"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/members1"
+        android:layout_width="38dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="316dp"
+        android:layout_marginTop="124dp"
+        android:background="@drawable/person"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/membersCount1"
+        android:layout_width="76dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="36dp"
+        android:fontFamily="@font/comfortaa_bold"
+        android:text="208 Following"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/members1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

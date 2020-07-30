@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">CalPolyApp</string>
+    <string name="home_description">We want to create a centralized platform for Cal Poly SLO students to be educated on and aware of campus resources, and be referenced to safe community spaces. The inspiration for this project stems from the recent personal stories by Cal Poly students shared publicly highlighting the lack of discussions, support, and resources provided by the university. We have taken it upon ourselves as current students and alumni of Cal Poly to call for a change and empower those who want to voice their experience.</string>
+    <string name="home_about">About</string>
+    <string name="home_loginButton">LOGIN</string>
+    <string name="home_signupButton">SIGN UP</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login_login">Login</string>
+    <string name="login_email_placeholder">Email</string>
+    <string name="login_password_placeholder">Password</string>
+    <string name="title_activity_tabs">Tabs</string>
+    <string name="tab_text_1">HOMESCREEN</string>
+    <string name="tab_text_2">RESOURCES</string>
+    <string name="tab_text_3">COMMUNITY</string>
+    <string name="tab_text_4">STORIES</string>
+    <string name="resources_contact">Suicide Hotline: \n+18002738355 \n\nBias Incident Response Team: \nhttps://birt.calpoly.edu/report \n\nCenter for Health &amp; Wellbeing: \nhttps://chwcalpoly.edu \n\nCovid Testing: \nhttps://emergencyslo.org/testing.aspx</string>
+    <string name="resources_contacts2">Sexual Assault Hotline: \n+18003737888</string>
+</resources>
